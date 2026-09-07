@@ -1,6 +1,6 @@
 # Collect
 
-VB6 working copy of `Collect` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Project1. Output: `CSCCollect.exe`. `VersionCompanyName`: CSC.
+CSC VB6 asset-collection launcher (`CSCCollect.exe` / `Collect.vbp`): shows a brief "Sending your computers asset information back to server..." UI, writes `c:\temp\collect.bat` to pull `collect.exe` from `%logonserver%\netlogon` and run KiXtart `collect.kix`, then thanks the user and exits. Open `Collect.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
